@@ -18,5 +18,28 @@
     --header-backgroud-color: #e3e3e3;
     --highlight-color: #000000;
     --featured-font-family: "Archivo", sans-serif;
-    
+    --character-top-image-src: url("assets/images/characters/kids-on-the-bike.svg");
+    --character-top-image-color: #ffffff;
+    --character-botton-image-src: url("assets/images/characters/inverted-world-monster.svg");
+    --caracter-botton-image-color: #e5e5e5;
+    --background-lamp-image: url("assets/images/backgrounds/lamps.png");
+    --footer-backgroud-color: #b5bbbf;
+}
+
+.dark-theme{
+    --page-background: linear-gradient(
+        180deg,
+        #050000 0%,
+        #130404 65%,
+        rgba(19, 1, 1, 0.75)
+    );
+    --header-backgroud-color: #220f0f;
+    --highlight-color: #ffffff;
+    --featured-font-family: "Rubik glitch", sans-serif;
+    --character-botton-image-src: url("assets/images/characters/kids-on-the-bike.svg");
+    --caracter-botton-image-color: rgb(255, 255, 255, 0.1);
+    --character-top-image-src: url("assets/images/characters/inverted-world-monster.svg");
+    --character-top-image-color: #000;
+    --background-lamp-image: url("assets/images/backgrounds/lamps-inverted.png");
+    --footer-backgroud-color: #000;
 }
